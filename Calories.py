@@ -3,7 +3,7 @@ import pickle
 import streamlit as st 
 import numpy as np
 #___LOADING MODEL___#
-load_model = pickle.load(open('C:/Users/OLAMILEKAN/Desktop/Calories Burned/mymodel.json', 'rb'))
+load_model = pickle.load(open("C:/Users/OLAMILEKAN\Desktop/Calories Burned/mymodel.json", 'rb'))
 #___ENCODING___#
 encoder = {'Gender':{'Male':0, 'Female':1}}
 #___CREATING FORM___#
@@ -37,6 +37,5 @@ if st.button("🔥Predict Calories", use_container_width=True):
       #___PREDICTION OUTPUT___#
       st.success(f'✅Estimated Calories Burned: {prediction[0]:.1f}kcal')
     #___FILLING ALL THE FIELDS REQUIREMENT___#
-    except (TypeError, ValueError, KeyError, TabError, IndexError):
-     st.error('❌Please fill all the fields before predicting!')
-
+    except:
+      st.error('❌Please fill all the fields before predicting!')
