@@ -3,7 +3,7 @@ import pickle
 import streamlit as st 
 import numpy as np
 #___LOADING MODEL___#
-load_model = pickle.load('mymodel.pkl', 'rb'))
+load_model = pickle.load(('mymodel.pkl', 'rb'))
 #___ENCODING___#
 encoder = {'Gender':{'Male':0, 'Female':1}}
 #___CREATING FORM___#
@@ -40,6 +40,7 @@ if st.button("🔥Predict Calories", use_container_width=True):
     except:
 
       st.error('❌Please fill all the fields before predicting!')
+
 
 
 
