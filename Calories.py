@@ -37,5 +37,5 @@ if st.button("🔥Predict Calories", use_container_width=True):
       #___PREDICTION OUTPUT___#
       st.success(f'✅Estimated Calories Burned: {prediction[0]:.1f}kcal')
     #___FILLING ALL THE FIELDS REQUIREMENT___#
-    except TypeError, ValueError, KeyError, TabError, IndexError:
+    except:
      st.error('❌Please fill all the fields before predicting!')
