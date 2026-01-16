@@ -227,7 +227,7 @@ pickle.dump(model, open(filename, 'wb'))
 # In[32]:
 
 
-load_model = pickle.load(open('mymodel.sav', 'rb'))
+load_model = pickle.load(open('mymodel.json', 'rb'))
 
 
 # In[33]:
