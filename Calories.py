@@ -8,6 +8,8 @@ load_model = pickle.load(open('mymodel.pkl', 'rb'))
 encoder = {'Gender':{'Male':0, 'Female':1}}
 #___CREATING FORM___#
 st.title("🏃‍♂️CALORIES BURNED PREDICTOR")
+st.markdown("**Provide the detail's below to predict the Calories Burnt.**")
+st.write('---')
 gender = st.selectbox('**Gender**', [ 'Male', 'Female'], index=None)
 age = st.number_input("**Age**", min_value=10, max_value=80, value=None)
 height = st.slider("**Height (cm)**",120.0,230.0, value=None, step=0.1)
@@ -40,6 +42,7 @@ if st.button("🔥Predict Calories", use_container_width=True):
     except:
 
       st.error('❌Please fill all the fields before predicting!')
+
 
 
 
