@@ -26,8 +26,9 @@ The app processes the inputs and predicts the approximate number of calories bur
 # 💻 How to Run the App Locally
 ## 1️⃣ Clone the Repository
 ### Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
-``git clone https://github.com/Olamilekan-23-ML/Calories-Burned-Prediction-Web-App.git
-cd Calories-Burned-Prediction-Web-App``
+``git clone https://github.com/Olamilekan-23-ML/Calories-Burned-Prediction-Web-App.git``
+
+ ``cd Calories-Burned-Prediction-Web-App``
 ## 2️⃣ Install Dependencies
 ### Ensure you have Python installed, then run:
 ``pip install -r requirements.txt``
