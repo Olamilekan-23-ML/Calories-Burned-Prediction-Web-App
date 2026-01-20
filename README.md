@@ -24,17 +24,17 @@ The app processes the inputs and predicts the approximate number of calories bur
 
 ---
 # 💻 How to Run the App Locally
-### 1️⃣ Clone the Repository
-Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
+## 1️⃣ Clone the Repository
+### Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
 ``git clone https://github.com/Olamilekan-23-ML/Calories-Burned-Prediction-Web-App.git
 cd Calories-Burned-Prediction-Web-App``
-### 2️⃣ Install Dependencies
-Ensure you have Python installed, then run:
+## 2️⃣ Install Dependencies
+### Ensure you have Python installed, then run:
 ``pip install -r requirements.txt``
-### 3️⃣ Run the Streamlit App
-Start the application with the following command:
+## 3️⃣ Run the Streamlit App
+### Start the application with the following command:
 ``streamlit run Calories.py``
-Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser.
+_Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser._
 
 ---
 # 📂 Project Structure
@@ -62,9 +62,9 @@ Then open the URL shown in your terminal (usually http://localhost:8501) in your
 
 ----
 # ⚠️ Important Disclaimer
-This tool is for educational and informational purposes only. It is not a substitute for professional medical, fitness, or 
+_This tool is for educational and informational purposes only. It is not a substitute for professional medical, fitness, or 
 nutritional advice. Always consult with qualified healthcare or fitness professionals before starting any exercise program or 
-making changes to your health regimen.
+making changes to your health regimen._
 
 # 👤 Author
 *_OLAMILEKAN_*
