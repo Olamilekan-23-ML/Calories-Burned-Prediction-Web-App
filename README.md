@@ -34,6 +34,7 @@ cd Calories-Burned-Prediction-Web-App``
 ## 3️⃣ Run the Streamlit App
 ### Start the application with the following command:
 ``streamlit run Calories.py``
+
 _Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser._
 
 ---
